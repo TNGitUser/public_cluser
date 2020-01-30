@@ -6,7 +6,7 @@
 /*   By: lucmarti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/28 11:22:44 by lucmarti          #+#    #+#             */
-/*   Updated: 2020/01/30 13:24:20 by lucmarti         ###   ########.fr       */
+/*   Updated: 2020/01/30 15:27:02 by lucmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	send_file(char *text, t_node *node, int client_fd)
 {
 	size_t	datalen;
 	size_t	to_send;
-	char	buffer[129];
+	char	buffer[32769];
 	size_t	i;
 
 	(void)node;
@@ -24,15 +24,15 @@ void	send_file(char *text, t_node *node, int client_fd)
 	to_send = htonl(datalen);
 	printf("File size : %li\n", datalen);
 	send(client_fd, &to_send, sizeof(to_send), 0);
-	if (datalen > 128)
+	if (datalen > 32768)
 	{
 		i = 0;
 		while (i < datalen)
 		{
-			buffer[128] = '\0';
-			strncpy(buffer, text + i, 128);
+			buffer[0] = '\0';
+			strncpy(buffer, text + i, 32768);
 			send(client_fd, &buffer, strlen(buffer), 0);
-			i += 128;
+			i += 32768;
 		}
 	}
 	else
@@ -45,7 +45,7 @@ void	receive_client_file(t_node *node, int fd, int id, ssize_t *len)
 	size_t	recv_t;
 	size_t	rsize[2];
 	char	*data;
-	char	buffer[128 + 1];
+	char	buffer[32768 + 1];
 	char	*output;
 
 	printf("Awaiting file from %i\n", fd);
@@ -54,7 +54,7 @@ void	receive_client_file(t_node *node, int fd, int id, ssize_t *len)
 	printf("Expected size : %li\n", recv_t);
 	rsize[0] = 0;
 	data = strdup("");
-	while ((rsize[1] = recv(fd, buffer, 128, 0)) > 0)
+	while ((rsize[1] = recv(fd, buffer, 32768, 0)) > 0)
 	{
 		rsize[0] += rsize[1];
 		buffer[rsize[1]] = '\0';
