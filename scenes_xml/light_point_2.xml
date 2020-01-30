@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -200</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>light_point_2</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<intensity>20000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+		<position>-100, 0, 200</position>
+	</light>
+	<light>
+		<intensity>20000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+		<position>100, 150, 100</position>
+	</light>
+	<object>
+		<type>plane</type> sotto
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> destra
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sinistra
+		<position>-300, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sopra
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> davanti
+		<position>0, 0, 500</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type> davanti
+		<position>-100, 0, 450</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+   	<object>
+		<type>sphere</type> davanti
+		<position>200, 0, 400</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+   	<object>
+		<type>sphere</type> davanti
+		<position>0, -200, 400</position>
+		<direction>0, 0, -1</direction>
+		<dimension>20</dimension>
+		<color>0xfff00</color>
+		<shine>150, 1</shine>
+	</object>
+   	<object>
+		<type>cylinder</type> davanti
+		<position>0, 0, 350</position>
+		<direction>0, 1, 0</direction>
+		<dimension>40</dimension>
+		<color>0x000000</color>
+		<shine>100, 0.5</shine>
+	</object>
+   	<object>
+		<type>cylinder</type> davanti
+		<position>150, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<dimension>60</dimension>
+		<color>0xff0000</color>
+		<shine>100, 0.5</shine>
+	</object>
+</scene>

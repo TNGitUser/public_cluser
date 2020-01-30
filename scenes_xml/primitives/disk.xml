@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0.00001, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>90.0</fov>
+	</camera>
+	<effects></effects>
+	<window>
+		<title>disk</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>100, 0, 0</position>
+		<intensity>20000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>disk</type>
+		<position>0, 0, 200</position>
+		<direction>1, 0, -0.5</direction>
+		<dimension>50</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>disk</type>
+		<position>0, 0, 200</position>
+		<direction>0, -1, -1</direction>
+		<dimension>50</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>disk</type>
+		<position>0, 0, 200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0x00ff00</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

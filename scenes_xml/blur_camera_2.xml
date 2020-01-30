@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 1, 0</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects>
+		<globalblur>
+			<axe>x</axe>
+			<intensity>8</intensity>
+		</globalblur>	
+	</effects>
+	<window>
+		<title>blur_camera_2</title>
+		<dimension>853, 480</dimension>
+		<ambient>0.6</ambient>
+	</window>
+	<light>
+		<position>-70, 100, 0</position>
+		<intensity>15000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -500, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 500, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>4, 200, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>30</dimension>
+		<color>0x0000ff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+</scene>

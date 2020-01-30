@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>90.1</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>light_directional_1</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<direction>-1, 0, 0</direction>
+		<intensity>20000</intensity>
+		<color>0xffffff</color>
+		<type>directional</type>
+	</light>
+	<object>
+	 	<type>sphere</type>
+		<position>0, -50, 350</position>
+		<direction>0, 0, -1</direction>
+		<dimension>30</dimension>
+        <color>0x0000ff</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>plane</type>
+		<position>0, -100, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>30</dimension>
+        <color>0xff0000</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>plane</type>
+		<position>-100, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>30</dimension>
+        <color>0x00ff00</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>plane</type>
+		<position>0, 0, 1000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>30</dimension>
+        <color>0x00ffff</color>
+        <shine>0, 0</shine>
+     </object>
+</scene>

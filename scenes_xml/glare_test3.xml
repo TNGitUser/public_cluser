@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>on</glare>
+	    <fov>80.0</fov>
+	</camera>
+	<window>
+		<title>glare_test3</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.6</ambient>
+	</window>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<light>
+		<direction>0, 0, -1</direction>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>directional</type>
+	</light>
+</scene>

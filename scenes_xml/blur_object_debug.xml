@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<window>
+		<title>blur_object_debug</title>
+		<dimension>500, 400</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 0, 0</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cone</type>
+		<position>30, 0, 300</position>
+		<direction>1, 1, 0</direction>
+		<motion>10, -5, 0</motion>
+		<dimension>60</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

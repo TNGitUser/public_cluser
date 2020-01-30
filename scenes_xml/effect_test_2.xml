@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+	    <fov>60.0</fov>
+		<rotation>0, 0, 0</rotation>
+	</camera>
+	<window>
+		<title>effect_test_2</title>
+		<dimension>853, 480</dimension>
+		<ambient>0.45</ambient>
+	</window>
+	<effects>
+		<colormode>sepia</colormode>
+		<antialiasing>2x</antialiasing>
+		<celshading>on</celshading>
+		<globalblur></globalblur>
+		<anaglyph></anaglyph>
+	</effects>
+	<light>
+		<position>0, 0, 300</position>
+		<intensity>15000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>-300, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 1000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 500</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x0000ff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-150, 0, 500</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x0000ff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+</scene>

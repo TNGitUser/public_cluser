@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -200</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects></effects>
+	<window>
+		<title>light_rectangle_2</title>
+		<dimension>512, 288</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<intensity>60000</intensity>
+		<color>0xffffff</color>
+		<type>rectangle</type>
+		<position>0, 199.9, 300</position>
+		<invertdirection>on</invertdirection>
+		<vdirection>64, 0, 0</vdirection>
+		<udirection>0, 0, 32</udirection>
+		<vdensity>16</vdensity>
+		<udensity>8</udensity>
+	</light>
+	<object>
+		<type>plane</type> sotto
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> destra
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sinistra
+		<position>-300, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sopra
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> davanti
+		<position>0, 0, 500</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+   	<object>
+		<type>cylinder</type> davanti
+		<position>0, 30, 250</position>
+		<direction>1, 0, 0</direction>
+		<dimension>40</dimension>
+		<color>0x00ffff</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<window>
+		<title>inside_cone</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<effects>
+		<celshading>off</celshading>
+	</effects>
+	<light>
+		<position>0, 0, 70</position>
+		<intensity>1500</intensity>
+		<color>0xff0000</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cone</type>
+		<position>0, 0, 100</position>
+		<direction>0, 0, 1</direction>
+		<dimension>30</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

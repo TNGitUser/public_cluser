@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>translation_sphere</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-70, 100, 0</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>70, -100, 0</position>
+		<intensity>80000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>100, 0, 400</position>
+		<rotation>-100, 0, 100</rotation>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x0000ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 400</position>
+		<translation>-100, 0, 100</translation>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0xdd0000</color>
+		<shine>200, 0.2</shine>
+	</object>
+</scene>

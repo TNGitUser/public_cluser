@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>90.0</fov>
+	</camera>
+	<window>
+		<title>group testing</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>-30, 60, 50</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>-30, 60, 150</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<group>
+		<position>0,5,100</position>
+		<rotation>0,0,0</rotation>
+		<translation>0,0,0</translation>
+		<components>
+			<group>
+				<position>0,0,15</position>
+				<rotation>0,0,0</rotation>
+				<translation>0,0,0</translation>
+				<components>
+					<object>
+						<type>sphere</type>
+						<position>-657, 600, 2500</position>
+						<direction>0, 1, 0</direction>
+						<rotation>0,0,0</rotation>
+						<dimension>80</dimension>
+						<color>0xfad4ff</color>
+					</object>
+				</components>
+			</group>
+			<object>
+				<type>sphere</type>
+				<position>0, 0, 0</position>
+				<negatif>1</negatif>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>15</dimension>
+				<color>0xffffff</color>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>0, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>10</dimension>
+				<color>0xffffff</color>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>20, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>7</dimension>
+				<color>0xffad2f</color>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>-20, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>5</dimension>
+				<color>0x5defff</color>
+			</object>
+			<mesh>
+				<type>triangle_mesh</type>
+				<color>0x0000ff</color>
+				<shine>0, 0</shine>
+				<translation>0, 0, 0</translation>
+				<rotation>0,0,0</rotation>
+				<part>
+					<vertex1>0, 0, 300</vertex1>
+					<vertex2>50, 0, 300</vertex2>
+					<vertex3>50, -50, 300</vertex3>
+				</part>
+				<part>
+					<vertex1>0, 0, 300</vertex1>
+					<vertex2>0, -50, 300</vertex2>
+					<vertex3>50, -50, 300</vertex3>
+				</part>
+				<part>
+					<vertex1>0, 0, 300</vertex1>
+					<vertex2>50, 0, 300</vertex2>
+					<vertex3>0, 0, 350</vertex3>
+				</part>
+				<part>
+					<vertex1>50, 0, 350</vertex1>
+					<vertex2>50, 0, 300</vertex2>
+					<vertex3>0, 0, 350</vertex3>
+				</part>
+				<part>
+					<vertex1>0, 0, 300</vertex1>
+					<vertex2>0, -50, 300</vertex2>
+					<vertex3>0, -50, 350</vertex3>
+				</part>
+				<part>
+					<vertex1>0, 0, 300</vertex1>
+					<vertex2>0, 0, 350</vertex2>
+					<vertex3>0, -50, 350</vertex3>
+				</part>
+			</mesh>
+		</components>
+	</group>
+	<object>
+		<type>cylinder</type>
+		<position>-30, 45, 0</position>
+		<direction>0, 0, 1</direction>
+		<negatif>1</negatif>
+		<rotation>0,0,0</rotation>
+		<dimension>8</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>-30, 25, 100</position>
+		<direction>0, 1, 0</direction>
+		<negatif>0</negatif>
+		<rotation>0,0,0</rotation>
+		<dimension>4</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>-30, 25, 0</position>
+		<direction>0, 0, 1</direction>
+		<negatif>1</negatif>
+		<rotation>0,0,0</rotation>
+		<dimension>4</dimension>
+		<color>0xffffff</color>
+	</object>
+	<mesh>
+		<type>triangle_mesh</type>
+		<color>0xff0000</color>
+		<shine>200, 1</shine>
+		<translation>-70, 70, -30</translation>
+		<rotation>0, 0, 0</rotation>
+		<part>
+			<vertex1>0, 0, 300</vertex1>
+			<vertex2>50, 0, 300</vertex2>
+			<vertex3>50, -50, 300</vertex3>
+		</part>
+		<part>
+			<vertex1>0, 0, 300</vertex1>
+			<vertex2>0, -50, 300</vertex2>
+			<vertex3>50, -50, 300</vertex3>
+		</part>
+		<part>
+			<vertex1>0, 0, 300</vertex1>
+			<vertex2>50, 0, 300</vertex2>
+			<vertex3>0, 0, 350</vertex3>
+		</part>
+		<part>
+			<vertex1>50, 0, 350</vertex1>
+			<vertex2>50, 0, 300</vertex2>
+			<vertex3>0, 0, 350</vertex3>
+		</part>
+		<part>
+			<vertex1>0, 0, 300</vertex1>
+			<vertex2>0, -50, 300</vertex2>
+			<vertex3>0, -50, 350</vertex3>
+		</part>
+		<part>
+			<vertex1>0, 0, 300</vertex1>
+			<vertex2>0, 0, 350</vertex2>
+			<vertex3>0, -50, 350</vertex3>
+		</part>
+	</mesh>	
+
+</scene>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>-100, 100, 0</position>        
+		<direction>0.2, -0.2, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+	</effects>
+	<window>
+		<title>rotation_triangle</title>
+		<dimension>853, 480</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-120, 150, 100</position>
+		<intensity>70000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type> sotto
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> destra
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sinistra
+		<position>-300, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sopra
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> dietro
+		<position>0, 0, 600</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+	 	<type>triangle</type>
+		<vertex1>0, 0, 300</vertex1>
+     	<vertex2>50, 0, 300</vertex2>
+     	<vertex3>50, -50, 300</vertex3>
+		<rotation>0, 45, 0</rotation>
+        <color>0xff9900</color>
+        <shine>0, 0</shine>
+		<identifier>1</identifier>
+     </object>
+	<object>
+	 	<type>triangle</type>
+		<vertex1>0, 0, 300</vertex1>
+     	<vertex2>50, 0, 300</vertex2>
+     	<vertex3>50, -50, 300</vertex3>
+        <color>0xf0eeff</color>
+		<rotation>90, 0, 0</rotation>
+		<translation>0, 20, -10</translation>
+        <shine>0, 0</shine>
+		<identifier>1</identifier>
+     </object>
+</scene>

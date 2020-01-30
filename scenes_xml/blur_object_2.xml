@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<window>
+		<title>blur_object_2</title>
+		<dimension>800, 350</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>-30, 30, 0</position>
+		<intensity>60000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>-105, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<motion>5, 0, 0</motion>
+		<dimension>30</dimension>
+		<color>0x0000ff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>105, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<motion>0, 5, 0</motion>
+		<dimension>30</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>55, 20, 300</position>
+		<direction>0, 1, 0</direction>
+		<motion>7, -7, 0</motion>
+		<dimension>30</dimension>
+		<color>0x55ff55</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-55, -20, 300</position>
+		<direction>0, 1, 0</direction>
+		<motion>7, 7, 0</motion>
+		<dimension>30</dimension>
+		<color>0x11ff11</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+</scene>

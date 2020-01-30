@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>-100, 100, 0</position>        
+		<direction>0.2, -0.2, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>Triangle1</title>
+		<dimension>853, 480</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-120, 150, 100</position>
+		<intensity>70000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type> 
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> 
+		<position>-300, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> 
+		<position>0, 0, 600</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+	 	<type>triangle</type>
+		<vertex2>-100, 50, 350</vertex2>
+     	<vertex3>-100, 0, 350</vertex3>
+     	<vertex1>0, -50, 350</vertex1>
+        <color>0xff0000</color>
+        <shine>0, 0</shine>
+     </object>
+     <object>
+         <type>triangle</type>
+         <vertex1>50, 0, 300</vertex1>
+         <vertex2>50, -50, 300</vertex2>
+		 <vertex3>100, -50, 300</vertex3>
+         <color>0x0000ff</color>
+         <shine>0, 0</shine>
+      </object>
+</scene>

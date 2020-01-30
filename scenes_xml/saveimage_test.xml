@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>saveimg</title>
+		<dimension>100, 100</dimension>
+		<ambient>1</ambient>
+	</window>
+	<light>
+		<position>0, 0, 0</position>
+		<intensity>0</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -30, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

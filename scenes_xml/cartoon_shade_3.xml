@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<window>
+		<title>cartoon_shading_3</title>
+		<dimension>853, 480</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<effects>
+		<celshading>on</celshading>
+	</effects>
+	<light>
+		<position>-100, 500, 100</position>
+		<intensity>110000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -50, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>30</dimension>
+		<color>0x007900</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, -40, 200</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xff0000</color>
+		<shine>10, 0.8</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-10, -40, 220</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xff8500</color>
+		<shine>10, 0.8</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>10, -40, 220</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xffd500</color>
+		<shine>10, 0.8</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-90, -40, 180</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xffffff</color>
+		<shine>5, 1</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>50, -45, 180</position>
+		<direction>1, 0, 1</direction>
+		<dimension>5</dimension>
+		<color>0x513200</color>
+		<shine>100, 0.2</shine>
+	</object>
+</scene>

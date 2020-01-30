@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<window>
+		<title>cartoon_shade_1</title>
+		<dimension>1280, 720</dimension>
+		<ambient>1</ambient>
+	</window>
+	<effects>
+		<celshading>on</celshading>
+	</effects>
+	<light>
+		<position>-100, 100, 300</position>
+		<intensity>30000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 500</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0xff0000</color>
+		<shine>300, 0.5</shine>
+	</object>
+</scene>

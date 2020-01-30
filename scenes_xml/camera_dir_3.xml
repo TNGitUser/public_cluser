@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>1, 0.1, -0.1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>cameratest_5</title>
+		<dimension>640, 360</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-70, 100, 0</position>
+		<intensity>80000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>400, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>-400, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 1000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, -1000</position>
+		<direction>0, 0, 1</direction>
+		<dimension>100</dimension>
+		<color>0x555555</color>
+		<shine>1, 0</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>50, 0, -400</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x44aaff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>300, 0, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x44aaff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>0, 70, 800</position>
+		<direction>1, 0, 0</direction>
+		<dimension>30</dimension>
+		<color>0x44aaff</color>
+		<shine>200, 0.2</shine>
+	</object>
+</scene>

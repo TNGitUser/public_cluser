@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>80.0</fov>
+	</camera>
+	<window>
+		<title>glare_test2</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>on</celshading>
+	</effects>
+	<light>
+		<position>192.5, 100, 289.5</position>
+		<direction>-1, -1, -1</direction>
+		<angle>45</angle>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>spot</type>
+	</light>
+	<light>
+		<position>-192.5, 100, 289.5</position>
+		<direction>1, -1, -1</direction>
+		<angle>45</angle>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>spot</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -30, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x2222ff</color>
+		<shine>0, 0</shine>
+	</object>
+    <object>
+		<type>cylinder</type>
+		<position>200, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x555555</color>
+		<shine>100, 0.5</shine>
+	</object>
+    <object>
+		<type>cylinder</type>
+		<position>-200, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x555555</color>
+		<shine>100, 0.5</shine>
+	</object>
+    <object>
+		<type>sphere</type>
+		<position>0, -25, 80</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+		<color>0xff0000</color>
+		<shine>200, 0.1</shine>
+	</object>
+</scene>

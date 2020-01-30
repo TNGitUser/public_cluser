@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>60.0</fov>
+	</camera>
+	<window>
+		<title>group testing</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 250, 50</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<group>
+		<position>0,5,100</position>
+		<rotation>0,-45,0</rotation>
+		<translation>0,0,0</translation>
+		<components>
+			<object>
+				<type>sphere</type>
+				<position>0, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>10</dimension>
+				<color>0xffffff</color>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>20, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>7</dimension>
+				<color>0xffad2f</color>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>-20, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<rotation>0,0,0</rotation>
+				<dimension>5</dimension>
+				<color>0x5defff</color>
+			</object>
+		</components>
+	</group>
+</scene>

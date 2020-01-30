@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>80.0</fov>
+	</camera>
+	<window>
+		<title>colormix_2distlight</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<light>
+		<position>100, 0, 400</position>
+		<intensity>30000</intensity>
+		<color>0x0000ff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>-100, 0, 400</position>
+		<intensity>28000</intensity>
+		<color>0xff0000</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 550</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0x111111</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

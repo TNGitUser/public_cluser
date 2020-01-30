@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects></effects>
+	<window>
+		<title>sphere</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>0, 30, 0</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xff00ff</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

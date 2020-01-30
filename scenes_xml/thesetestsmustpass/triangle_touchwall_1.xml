@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>triangle_touchwall1</title>
+		<dimension>1280.333, 720.11</dimension>
+		<ambient>0.3</ambient>
+	</window>
+	<light>
+		<intensity>1000000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+		<position>0, 0, 1</position>
+	</light>
+	<object>
+		<type>plane</type> destra
+		<position>501, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>500</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type> sotto
+		<position>0, -500, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>500</dimension>
+		<color>0xffffff</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type> sinistra
+		<position>-500, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type> sopra
+		<position>0, 500, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>500</dimension>
+		<color>0xffff00</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type> davanti
+		<position>0, 0, 2001</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>300, 0, 1000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+	  <object>
+         <type>triangle</type>
+         <vertex1>500, 0, 1000</vertex1>
+         <vertex2>500, 0, 1200</vertex2>
+         <vertex3>500, 200, 1000</vertex3>
+         <color>0xffff00</color>
+         <shine>0, 0</shine>
+		 <identifier>1</identifier>
+      </object>
+	  <object>
+         <type>triangle</type>
+         <vertex1>-100, -100, 2000</vertex1>
+         <vertex2>-100, 100, 2000</vertex2>
+         <vertex3>100, -100, 2000</vertex3>
+         <color>0xffff00</color>
+         <shine>0, 0</shine>
+		 <identifier>1</identifier>
+      </object>
+</scene>

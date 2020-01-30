@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects></effects>
+	<window>
+		<title>cylinder</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>0, 0, 0</position>
+		<intensity>40000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cylinder</type>
+		<position>0, 0, 300</position>
+		<direction>1, 0, 0</direction>
+		<dimension>20</dimension>
+		<color>0x026900</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

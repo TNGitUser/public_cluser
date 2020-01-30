@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>on</glare>
+	    <fov>80.0</fov>
+	</camera>
+	<window>
+		<title>colormix_2glarelight</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<light>
+		<position>25, 0, 100</position>
+		<intensity>25000</intensity>
+		<color>0x0000ff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>-25, 0, 100</position>
+		<intensity>25000</intensity>
+		<color>0xff0000</color>
+		<type>point</type>
+	</light>
+</scene>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>30</fov>
+	</camera>
+	<effects>
+		<anaglyph>
+			<offset>0.4</offset>
+			<focus>0.175</focus>
+		</anaglyph>
+	</effects>
+	<window>
+		<title>Tridimensional_4</title>
+		<dimension>1920, 1080</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>-100, 120, 0</position>
+		<intensity>40000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+	 	<type>plane</type>
+		<position>12, -12, 100</position>
+		<direction>0, 1, -0.2</direction>
+		<dimension>5</dimension>
+        <color>0x003803</color>
+        <shine>200, 1</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>0, -8, 90</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>-18, -2, 125</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>0, 1, 140</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>18, 4, 155</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>-35, 13, 200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>0, 18, 225</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>35, 23, 250</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>30, 0.7</shine>
+     </object>
+</scene>

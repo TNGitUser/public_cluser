@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects></effects>
+	<window>
+		<title>plane</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>0, 0, -5</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -100, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

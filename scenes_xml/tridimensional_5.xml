@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>30</fov>
+	</camera>
+	<effects>
+		<anaglyph>
+			<offset>0.4</offset>
+			<focus>0.175</focus>
+		</anaglyph>
+	</effects>
+	<window>
+		<title>Tridimensional_5</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.7</ambient>
+	</window>
+	<light>
+		<position>-100, 120, 0</position>
+		<intensity>40000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 1000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>5</dimension>
+		<color>0x999999</color>
+		<shine>30, 0.7</shine>
+	</object>
+	<group>
+		<position>0,0,-100</position>
+		<rotation>0,0,10</rotation>
+		<translation>0,0,0</translation>
+		<components>
+			<object>
+				<type>sphere</type>
+				<position>0, -20, 1000</position>
+				<direction>0, 0, -1</direction>
+				<dimension>8</dimension>
+				<color>0x999999</color>
+				<shine>30, 0.7</shine>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>0, 20, 1000</position>
+				<direction>0, 0, -1</direction>
+				<dimension>8</dimension>
+				<color>0x999999</color>
+				<shine>30, 0.7</shine>
+			</object>
+		</components>
+	</group>
+	<group>
+		<position>0,0,-200</position>
+		<rotation>0,0,20</rotation>
+		<translation>0,0,0</translation>
+		<components>
+			<object>
+				<type>sphere</type>
+				<position>0, -40, 1000</position>
+				<direction>0, 0, -1</direction>
+				<dimension>10</dimension>
+				<color>0x999999</color>
+				<shine>30, 0.7</shine>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>0, 40, 1000</position>
+				<direction>0, 0, -1</direction>
+				<dimension>10</dimension>
+				<color>0x999999</color>
+				<shine>30, 0.7</shine>
+			</object>
+		</components>
+	</group>
+	<group>
+		<position>0,0,-300</position>
+		<rotation>0,0,30</rotation>
+		<translation>0,0,0</translation>
+		<components>
+			<object>
+				<type>sphere</type>
+				<position>0, 60, 1000</position>
+				<direction>0, 0, -1</direction>
+				<dimension>10</dimension>
+				<color>0x999999</color>
+				<shine>30, 0.7</shine>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>0, -60, 1000</position>
+				<direction>0, 0, -1</direction>
+				<dimension>10</dimension>
+				<color>0x999999</color>
+				<shine>30, 0.7</shine>
+			</object>
+		</components>
+	</group>
+</scene>

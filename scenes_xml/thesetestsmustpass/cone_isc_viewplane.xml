@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 3, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects></effects>
+	<window>
+		<title>intersection_cone_viewplane</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.3</ambient>
+	</window>
+	<light>
+		<position>500, 0, 0</position>
+		<intensity>300000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cone</type>
+		<position>0, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<dimension>30</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

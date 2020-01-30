@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -200</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>spotlight_1</title>
+		<dimension>1000, 563</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>0, 0, 0</position>
+		<direction>1, 0, 1</direction>
+		<angle>40</angle>
+		<intensity>300000</intensity>
+		<color>0xffffff</color>
+		<type>spot</type>
+	</light>
+	<light>
+		<position>0, 0, 0</position>
+		<direction>-1, 0, 1</direction>
+		<angle>40</angle>
+		<intensity>300000</intensity>
+		<color>0xffffff</color>
+		<type>spot</type>
+	</light>
+	<light>
+		<position>-250, 0, 300</position>
+		<direction>0.6, -1, 0</direction>
+		<angle>50</angle>
+		<intensity>50000</intensity>
+		<color>0x0000ff</color>
+		<type>spot</type>
+	</light>
+	<light>
+		<position>250, 0, 300</position>
+		<direction>-0.6, -1, 0</direction>
+		<angle>50</angle>
+		<intensity>50000</intensity>
+		<color>0xffff00</color>
+		<type>spot</type>
+	</light>
+	<object>
+		<type>plane</type> sotto
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> destra
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sinistra
+		<position>-300, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sopra
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> davanti
+		<position>0, 0, 500</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+</scene>

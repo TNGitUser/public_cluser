@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, -25</rotation>
+	    <fov>35</fov>
+	</camera>
+	<window>
+		<title>Tridimensional_debug</title>
+		<dimension>800, 400</dimension>
+		<ambient>1</ambient>
+	</window>
+	<effects>
+		<anaglyph>
+			<offset>2</offset>
+			<focus>1</focus>
+		</anaglyph>
+	</effects>
+	<object>
+	 	<type>sphere</type>
+		<position>20, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+</scene>

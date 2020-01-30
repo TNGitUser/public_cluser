@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>35</fov>
+	</camera>
+	<effects>
+		<anaglyph>
+			<offset>0.5</offset>
+			<focus>0.18</focus>
+		</anaglyph>
+	</effects>
+	<window>
+		<title>Tridimensional_1</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-400, 0, 100</position>
+		<intensity>60000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>400, 0, 100</position>
+		<intensity>60000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+	 	<type>plane</type>
+		<position>0, 15, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x0</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>plane</type>
+		<position>0, -15, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x222222</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>0, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>16, 0, 200</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>-16, 0, 200</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>40, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>-40, 0, 300</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>80, 0, 400</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>cylinder</type>
+		<position>-80, 0, 400</position>
+		<direction>0, 1, 0</direction>
+		<dimension>5</dimension>
+        <color>0x999999</color>
+        <shine>0, 0</shine>
+     </object>
+</scene>

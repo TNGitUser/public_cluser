@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 20, 0</position>        
+		<direction>-1, 0, 0</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>cameratest_4</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-70, 100, 0</position>
+		<intensity>55000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>-800, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<rotation>0, 0, 0</rotation>
+		<dimension>30</dimension>
+		<color>0x333333</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-400, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>30</dimension>
+		<color>0x34ee99</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-400, 0, -100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>30</dimension>
+		<color>0xffffff</color>
+	</object>
+</scene>

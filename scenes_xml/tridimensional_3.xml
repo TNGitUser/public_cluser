@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>28</fov>
+	</camera>
+	<effects>
+		<anaglyph>
+			<offset>1</offset>
+			<focus>0.62</focus>
+		</anaglyph>
+	</effects>
+	<window>
+		<title>Tridimensional_3</title>
+		<dimension>800, 400</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-100, 0, 0</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>100, 0, 0</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+	 	<type>disk</type>
+		<position>0, 10, 100</position>
+		<direction>0, 1, -0.2</direction>
+		<dimension>20</dimension>
+        <color>0xffffff</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>disk</type>
+		<position>0, -8, 100</position>
+		<direction>0, 1, -0.2</direction>
+		<dimension>20</dimension>
+        <color>0xffffff</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>disk</type>
+		<position>0, 0, 100</position>
+		<direction>0, 1, -0.2</direction>
+		<rotation>0, 0, 45</rotation>
+		<dimension>20</dimension>
+        <color>0xffffff</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>disk</type>
+		<position>0, 0, 100</position>
+		<direction>0, 1, -0.28</direction>
+		<rotation>0, 0, 90</rotation>
+		<dimension>20</dimension>
+        <color>0xffffff</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>disk</type>
+		<position>0, 0, 100</position>
+		<direction>0, 1, -0.2</direction>
+		<rotation>0, 0, 135</rotation>
+		<dimension>20</dimension>
+        <color>0xffffff</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>15, -5.5, 105</position>
+		<direction>0, 1, -0.2</direction>
+		<rotation>0, 0, 135</rotation>
+		<dimension>2</dimension>
+        <color>0xff5555</color>
+        <shine>0, 0</shine>
+     </object>
+	<object>
+	 	<type>sphere</type>
+		<position>-7, -9, 88</position>
+		<direction>0, 1, -0.2</direction>
+		<rotation>0, 0, 135</rotation>
+		<dimension>2</dimension>
+        <color>0x0000ff</color>
+        <shine>0, 0</shine>
+     </object>
+</scene>
